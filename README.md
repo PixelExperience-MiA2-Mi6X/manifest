@@ -8,7 +8,7 @@
 repo init --depth=1 -u https://github.com/PixelExperience-MiA2-Mi6X/manifest -b twelve
 
 # Sync
-repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
+repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags --optimized-fetch
 ```
 
 ### Build ###
